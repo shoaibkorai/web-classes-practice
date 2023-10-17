@@ -1,0 +1,56 @@
+/* nav-item-color */
+#nav-item-color a
+{
+    color: white;
+}
+
+/* navbar button */
+#button1
+{
+    position: relative;
+    right: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 35px;
+
+}
+#button2
+{
+    position: relative;
+    right: 130px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: 1px solid;
+    border-radius: 35px;
+
+}
+#after-slider
+{
+    position: relative;
+    justify-content: space-evenly;
+}
+
+/* welcome buttons */
+#wellcom-div
+{
+  
+    position: relative;
+    right: -50px;
+    height: 50px;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    border: 1px solid;
+    border-radius: 35px;
+
+}
+#welcom-text
+{
+    color: white;
+    position: relative;
+}
+   

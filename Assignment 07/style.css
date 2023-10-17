@@ -1,0 +1,96 @@
+
+/* navbar   starts */
+.navbar {
+    height: 120px;
+    background-color:#efc964;
+margin-right: -300px;
+}
+/* nav-logo */
+.logo{
+    height: 600px;
+  margin-left: -2px;
+
+}
+.navbottum {
+    height: 60px;
+font-size: 20px;
+margin-left: 300px;
+margin-top: -10px;
+background-color: white;
+} 
+
+.tag-line {
+    font-size: 30px;   
+    margin-left: 700px;
+    color: gray;
+}
+/* overlaping divs  */
+.back-div {
+    position: absolute;
+    width: 100%;    
+}
+
+.front-div {
+    
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    background-color:black;
+    top: 0.01%;
+    left: 60%;
+    opacity: 0.5; 
+    z-index: 2;
+}
+
+.over-lap-imgs{
+
+   
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Horizontally center-align items */
+        width: 25%;
+        height:100%;
+}
+.column-item {
+    top: -30px;
+    padding: 55px;
+    border: 1px solid #000;
+    
+} 
+
+.floating-image {
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    z-index: 3;
+}
+
+.text{
+    width: 100%;
+    font-size: 50px;   
+    margin-left: 700px;
+    top: 30px;
+    color: gray;
+
+}
+
+@media screen and (max-width: 768px) {
+    .tag-line {
+        font-size: 24px;
+    }
+    
+    .column-item {
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
